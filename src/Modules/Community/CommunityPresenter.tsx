@@ -2,15 +2,14 @@ import React from "react";
 import ReviewList from "./ReviewList";
 import Box from "@material-ui/core/Box";
 import { maxWidth } from "@material-ui/system";
+import Container from "@material-ui/core/Container";
 import "./index.css";
 
 const CommunityPresenter = () => {
   return (
-    <Box display="flex" justifyContent="center">
-      {/* <Box maxWidth="600px"> */}
+    <Container maxWidth="sm">
       <ReviewList></ReviewList>
-      {/* </Box> */}
-    </Box>
+    </Container>
   );
 };
 

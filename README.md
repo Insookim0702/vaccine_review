@@ -10,4 +10,4 @@
 
 ## 사용 기술
 
-`React`, `Typescript`, `Jest`
+`React`, `Typescript`, `Jest` , `React Material-UI`
